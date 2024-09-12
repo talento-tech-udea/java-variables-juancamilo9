@@ -7,7 +7,8 @@ public class PerimeterCalculatorTest {
 
     public Shape loadShape() {
         Shape shape = new Shape();
-        shape.readPoints("square.txt");
+        shape.readPoints("resources/square.txt");
+
         return shape;
     }
 
